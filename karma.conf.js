@@ -16,13 +16,12 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       'public/vendor/jquery.min.js',
-      'public/vendor/1.5.5/angular.min.js',
-      'public/vendor/1.5.5/angular-route.min.js',
+      'public/vendor/1.6.3/angular.min.js',
+      'public/vendor/1.6.3/angular-mocks.js',
       'public/vendor/toastr.min.js',
       'public/toastr/toastr.js',
-      'build/app.js',
+      'public/app.js',
       'public/**/*.js',
-      'build/**/*.js',
       'test/**/*.js',
       'public/**/*.html'
     ],
@@ -30,7 +29,10 @@ module.exports = function(config) {
 
     // list of files to exclude
     exclude: [
-      'public/vendor/1.4.9/**/*.js'
+      'public/vendor/1.4.9/**/*.js',
+      'public/vendor/1.5.5/**/*.js',
+      'public/routes.js',
+      // 'public/vendor/1.6.3/angular-route.min.js'
     ],
 
 
