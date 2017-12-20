@@ -1,1 +1,3 @@
 all of these anonymous functions with .bind() are a pain. I need es6 fat arrows
+askdjfhlakdjshflkdjshf
+kjahsdklfjhalkdjsfhlkds
